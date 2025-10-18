@@ -1,0 +1,53 @@
+/* Custom styles for Sentiment Analysis app */
+:root{
+  --accent-1: #6a11cb; /* purple */
+  --accent-2: #2575fc; /* blue */
+  --card-bg: rgba(255,255,255,0.92);
+}
+
+body{
+  font-family: Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.app-bg{
+  background: linear-gradient(135deg, var(--accent-1) 0%, var(--accent-2) 100%);
+  padding: 60px 0;
+}
+
+.sentiment-card{
+  background: var(--card-bg);
+  border: none;
+}
+
+.product-image img{
+  max-width: 360px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.stat-card{
+  background: linear-gradient(180deg, rgba(255,255,255,0.85), rgba(250,250,250,0.85));
+  border: 1px solid rgba(0,0,0,0.04);
+}
+
+.stat-value{
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+@media (max-width: 768px){
+  .app-bg{ padding: 30px 0; }
+  .product-image img{ max-width: 280px; }
+}
+
+/* Comments */
+.comment-list .comment-item{ background: rgba(255,255,255,0.95); }
+.comment-text{ font-size: 0.98rem; }
+.comment-time{ opacity: 0.8; }
+
+textarea.form-control{ resize: vertical; }
+
+@media (max-width: 576px){
+  .stat-value{ font-size: 1.75rem; }
+}
