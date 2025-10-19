@@ -38,5 +38,3 @@ http://127.0.0.1:5000/
 - `static/products/image.png` - Product image used on the page (ensure this file exists).
 - `notebooks/` - Jupyter notebooks used for dataset download and model building.
 - `artifacts/sentiment_analysis.csv` - (Optional) dataset artifacts.
-
-# Sentiment-Analysis
